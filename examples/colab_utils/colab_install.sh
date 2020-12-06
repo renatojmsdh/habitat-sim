@@ -31,7 +31,7 @@ conda install -y --prefix /usr/local -c "${CHANNEL}" -c conda-forge habitat-sim 
 
 #Shallow GIT clone for speed
 git clone https://github.com/facebookresearch/habitat-lab --depth 1
-git clone https://github.com/facebookresearch/habitat-sim --depth 1
+#git clone https://github.com/facebookresearch/habitat-sim --depth 1
 
 #Install Requirements.
 cd /content/habitat-lab/
