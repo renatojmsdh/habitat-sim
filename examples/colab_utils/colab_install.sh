@@ -43,6 +43,7 @@ git clone https://github.com/facebookresearch/habitat-lab --depth 1
 
 #Install Requirements.
 cd /content/habitat-lab/
+git checkout ac937fd
 set +e
 pip install -r ./requirements.txt
 reqs=(./habitat_baselines/**/requirements.txt)
